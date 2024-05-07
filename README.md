@@ -20,7 +20,7 @@ I am a passionate coder with expertise in database management. I enjoy tackling 
 - **SQL and Relational Databases 101**
   [View Certification](https://courses.cognitiveclass.ai/certificates/78a85fc501b740e18643890001499452)
 
-  - **NoSQL and DBaaS 101**
+- **NoSQL and DBaaS 101**
   [View Certification](https://courses.cognitiveclass.ai/certificates/1c92cf8b8678484f883c124752145035)
 
 ## Skill Sets
