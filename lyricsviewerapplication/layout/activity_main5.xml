@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="226dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/song1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="417dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitle1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kiss me, out of the bearded barley\n Nightly, beside the green, green grass\n Swing, swing, (swing, swing) swing the spinning step\n You wear those shoes and I will wear that dress\n\n Oh, kiss me, beneath the milky twilight\n Lead me out on the moonlit floor\n Lift your open hand\n Strike up the band and make the fireflies dance\n Silver moon's sparkling\n So kiss me\n\n Kiss me, (kiss me) down by the broken tree house\n Swing me, (swing me) upon its hanging tire\n Bring, bring, (bring, bring) bring your flowered hat\n We'll take the trail marked on your father's map\n\n Oh, kiss me, beneath the milky twilight\n Lead me out on the moonlit floor\n Lift your open hand\n Strike up the band and make the fireflies dance\n Silver moon's sparkling\n So kiss me\n\n Kiss me, beneath the milky twilight\n Lead me out on the moonlit floor\n Lift your open hand\n Strike up the band and make the fireflies dance\n Silver moon's sparkling\n So kiss me\n\n So kiss me\n So kiss me\n So kiss me  "
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

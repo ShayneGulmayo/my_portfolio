@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtTitle5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/song3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="417dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tooSweetLyr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It can't be said I'm an early bird \nIt's ten o'clock before I say a word \n Baby, I can never tell \n How do you sleep so well? \n\nYou keep telling me to live right \nTo go to bed before the daylight \nBut then you wake up for the sunrise \nYou know you don't gotta pretend, baby, now and then \nDon't you just wanna wake up, dark as a lake? \nSmelling like a bonfire, lost in a haze? \n If you're drunk on life, babe, I think it's great\n But while in this world\n\n I think I'll take my whiskey neat\n My coffee black and my bed at three\n You're too sweet for me\n You're too sweet for me\n I take my whiskey neat\n My coffee black and my bed at three\n You're too sweet for me\n You're too sweet for me\n\n Ooh, ooh-ooh\n Ooh, ooh-ooh\n Ooh, ooh-ooh\n Ooh, ooh-ooh\n\n I aim low, I aim true and the ground's where I go\n I work late where I'm free from the phone\n And the job gets done\n But you worry some, I know\n\n But who wants to live forever, babe? \n You treat your mouth as if it's Heaven's gate\n The rest of you like you're the TSA\n I wish that I could go along, babe, don't get me wrong\n\n You know, you're bright as the morning, as soft as the rain\n Pretty as a vine, as sweet as a grape\n If you can sit in a barrel, maybe I'll wait\n Until that day\n\n I'd rather take my whiskey neat\n My coffee black and my bed at three\n You're too sweet for me\n You're too sweet for me\n\n I take my whiskey neat\n My coffee black and my bed at three\n You're too sweet for me\n You're too sweet for me\n\n Whoa, oh-oh\n Whoa, oh-oh\n Whoa, oh-oh\n Whoa, oh-oh\n Whoa, oh-oh\n Whoa, oh-oh\n Whoa, oh-oh\n Whoa, oh-oh\n\n I take my whiskey neat\n My coffee black and my bed at three\n You're too sweet for me\n You're too sweet for me\n  "
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

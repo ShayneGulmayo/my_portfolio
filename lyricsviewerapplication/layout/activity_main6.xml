@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="226dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/song2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:layout_width="417dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitle1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We were in the backseat\n Drunk on something stronger than the drinks in the bar\n &quot;I rent a place on Cornelia Street&quot;\n I say casually in the car\n We were a fresh page on the desk\n Filling in the blanks as we go\n As if the street lights pointed in an arrowhead\n Leading us home\n\n And I hope I never lose you, hope it never ends\n I'd never walk Cornelia Street again\n That's the kind of heartbreak time could never mend\n I'd never walk Cornelia Street again\n\n And baby, I get mystified by how this city screams your name\n And baby, I'm so terrified of if you ever walk away\n I'd never walk Cornelia Street again\n I'd never walk Cornelia Street again\n\n Windows swung right open, autumn air\n Jacket 'round my shoulders is yours\n We bless the rains on Cornelia Street\n Memorize the creaks in the floor\n Back when we were card sharks, playing games\n I thought you were leading me on\n I packed my bags, left Cornelia Street\n Before you even knew I was gone\n\n But then you called, showed your hand\n I turned around before I hit the tunnel\n Sat on the roof, you and I\n\n I hope I never lose you, hope it never ends\n I'd never walk Cornelia Street again\n That's the kind of heartbreak time could never mend\n I'd never walk Cornelia Street again\n\n And baby, I get mystified by how this city screams your name \n (city screams your name) \n And baby, I'm so terrified of if you ever walk away\n I'd never walk Cornelia Street again\n I'd never walk Cornelia Street again\n\n You hold my hand on the street\n Walk me back to that apartment\n Years ago, we were just inside\n Barefoot in the kitchen\n Sacred new beginnings\n That became my religion, listen\n\n I hope I never lose you\n I'd never walk Cornelia Street again\n Oh, never again\n\n And baby, I get mystified by how this city screams your name\n And baby, I'm so terrified of if you ever walk away\n I'd never walk Cornelia Street again\n I'd never walk Cornelia Street again\n\n I don't wanna lose you, hope it never ends\n I'd never walk Cornelia Street again\n I don't wanna lose you, yeah\n\n &quot;I rent a place on Cornelia Street&quot;\n I say casually in the car  "
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

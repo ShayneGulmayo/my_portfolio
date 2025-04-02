@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/txtTitle5"
+        android:layout_width="226dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/song4"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="417dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I can see you standing, honey\n With his arms around your body\n Laughin', but the joke's not funny at all\n\n And it took you five whole minutes\n To pack us up and leave me with it\n Holdin' all this love out here in the hall\n\n I think I've seen this film before\n And I didn't like the ending\n You're not my homeland anymore\n So what am I defending now? \n You were my town\n Now I'm in exile, seein' you out\n I think I've seen this film before\n I can see you starin', honey\n Like he's just your understudy\n Like you'd get your knuckles bloody for me\n\n Second, third, and hundredth chances\n Balancin' on breaking branches\n Those eyes add insult to injury\n\n I think I've seen this film before\n And I didn't like the ending\n I'm not your problem anymore\n So who am I offending now? \n You were my crown\n Now I'm in exile, seein' you out\n I think I've seen this film before\n So I'm leavin' out the side door\n\n So step right out, there is no amount\n Of crying I can do for you\n All this time\n We always walked a very thin line\n You didn't even hear me out\n (you didn't even hear me out) \n You never gave a warning sign \n (I gave so many signs) \n\n All this time\n I never learned to read your mind\n (never learned to read my mind) \n I couldn't turn things around \n (you never turned things around) \n 'Cause you never gave a warning sign \n (I gave so many signs) \n So many signs, so many signs\n You didn't even see the signs\n\n I think I've seen this film before\n And I didn't like the ending\n You're not my homeland anymore\n So what am I defending now? \n You were my town\n Now I'm in exile, seein' you out\n I think I've seen this film before\n So I'm leavin' out the side door\n\n So step right out, there is no amount\n Of crying I can do for you\n All this time\n We always walked a very thin line\n You didn't even hear me out\n (didn't even hear me out) \n You never gave a warning sign\n (I gave so many signs) \n\n All this time\n I never learned to read your mind \n (never learned to read my mind) \n I couldn't turn things around \n (you never turned things around) \n 'Cause you never gave a warning sign \n (I gave so many signs) \n\n All this time (so many signs) \n I never learned to read your mind \n (so many signs) \n I couldn't turn things around\n (I couldn't turn things around) \n 'Cause you never gave a warning sign\n (you never gave a warning sign) \n You never gave a warning sign\n Ah, ah  "
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
