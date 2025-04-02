@@ -1,6 +1,6 @@
-# Hello, Shayne Marie Gulmayo 👋
+# Hello, I'm Shayne Marie Gulmayo 👋
 
-I am a passionate coder with expertise in database management. I enjoy tackling complex problems and crafting elegant solutions. My tech journey began with the BS Information Technology program, and I've been honing my skills ever since.
+I am a passionate coder with expertise in database management and back-end coding. I enjoy tackling complex problems and crafting elegant solutions. My tech journey began with the BS Information Technology program, and I've been honing my skills ever since.
 
 ## Education
 - **BS Information Technology**
@@ -24,8 +24,8 @@ I am a passionate coder with expertise in database management. I enjoy tackling 
   [View Certification](https://courses.cognitiveclass.ai/certificates/1c92cf8b8678484f883c124752145035)
 
 ## Skill Sets
-- **Programming:** Java, Javascript
-- **Databases:** IBM DB2 Cloud
+- **Programming:** Java, Python, Kotlin
+- **Databases:** IBM DB2 Cloud, Firebase, MyPHP
 - **Tools:** Lucidchart, Jaspersoft Studio, Eclipse, HTML
 
 ## Connect with Me
