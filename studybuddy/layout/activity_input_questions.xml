@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inputQuestions">
+
+    <TextView
+        android:id="@+id/txtStuddyBuddy"
+        android:layout_width="413dp"
+        android:layout_height="47dp"
+        android:background="#18288D"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/txtStudyBuddy"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutNavBar"
+        android:layout_width="408dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:background="#2653AF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imgBtnHome"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAdd"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/imgBtnUser"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtInputQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="284dp"
+        android:text="@string/txtInputQ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStuddyBuddy" />
+
+    <EditText
+        android:id="@+id/edtTxtQuestion"
+        android:layout_width="335dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="39dp"
+        android:background="#F8F4ED"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputQuestion" />
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="255dp"
+        android:text="@string/txtInputA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtQuestion" />
+
+    <EditText
+        android:id="@+id/edtTxtAnswer"
+        android:layout_width="335dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="162dp"
+        android:background="#F8F4ED"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer" />
+
+    <Button
+        android:id="@+id/btnSaveCard"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="42dp"
+        android:backgroundTint="#FFC13D"
+        android:text="@string/txtSave"
+        app:layout_constraintBottom_toTopOf="@+id/layoutNavBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAnswer"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnDiscardCard"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="42dp"
+        android:backgroundTint="#2653AF"
+        android:text="@string/txtDiscard"
+        app:layout_constraintBottom_toTopOf="@+id/layoutNavBar"
+        app:layout_constraintEnd_toStartOf="@+id/btnSaveCard"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAnswer"
+        app:layout_constraintVertical_bias="0.022" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

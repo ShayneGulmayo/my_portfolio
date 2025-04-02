@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flview">
+
+    <TextView
+        android:id="@+id/txtStuddyBuddy"
+        android:layout_width="413dp"
+        android:layout_height="47dp"
+        android:background="#18288D"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/txtStudyBuddy"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutNavBar"
+        android:layout_width="408dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:background="#2653AF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imgBtnHome"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAdd"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/imgBtnUser"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnShowAnswer"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#18288D"
+        android:text="@string/btnShowAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplayAns" />
+
+    <TextView
+        android:id="@+id/txtDisplayQues"
+        android:layout_width="332dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="309dp"
+        android:background="#FFF9E6"
+        android:gravity="center_vertical"
+        android:text="Question goes here."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDelete" />
+
+    <TextView
+        android:id="@+id/txtDisplayAns"
+        android:layout_width="332dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="309dp"
+        android:background="#FFF9E6"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Answer goes here."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplayQues" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFC13D"
+        android:text="Delete"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStuddyBuddy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

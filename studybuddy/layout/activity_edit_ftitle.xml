@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editFTitle">
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#FFC13D"
+        android:text="@string/txtSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtEnterFl" />
+
+    <TextView
+        android:id="@+id/txtFCSetName"
+        android:layout_width="194dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txtSetName"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStuddyBuddy" />
+
+    <EditText
+        android:id="@+id/edtTxtEnterFl"
+        android:layout_width="327dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Flashcard Set Name"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFCSetName" />
+
+    <Button
+        android:id="@+id/btnDiscard"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#18288D"
+        android:text="@string/txtDiscard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtEnterFl" />
+
+    <TextView
+        android:id="@+id/txtStuddyBuddy"
+        android:layout_width="413dp"
+        android:layout_height="47dp"
+        android:background="#18288D"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/txtStudyBuddy"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutNavBar"
+        android:layout_width="408dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:background="#2653AF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imgBtnHome"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAdd"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/imgBtnUser"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/user" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
